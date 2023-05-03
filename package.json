@@ -28,8 +28,7 @@
     "prettier": "prettier --write .",
     "test": "nx exec -- jest",
     "test:verbose": "nx exec -- jest --verbose",
-    "test:watch": "jest --verbose --watch",
-    "prepare": "npm run build"
+    "test:watch": "jest --verbose --watch"
   },
   "repository": {
     "type": "git",
