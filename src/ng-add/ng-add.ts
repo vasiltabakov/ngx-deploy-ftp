@@ -53,7 +53,7 @@ export const ngAdd = (options: NgAddOptions) => async (tree: Tree) => {
     );
   }
 
-  addProjectTarget(project, "deploy", "ngx-deploy-ftp:deploy", {});
+  addProjectTarget(project, "deploy", "ngx15-deploy-ftp:deploy", {});
 
   // Apply changes
   await workspaces.writeWorkspace(workspace, workspaceHost);
